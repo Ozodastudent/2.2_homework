@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:wght@900&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.container {
+  width: 1270px;
+
+  margin-left: 40px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  display: flex;
+}
+.nav_item {
+  list-style: none;
+  margin: 50px 33px;
+}
+.nav_link {
+  text-decoration: none;
+  color: #83888f;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 0.9px;
+}
+.nav_link:hover {
+  color: rgb(58, 36, 36);
+}
+/* main part */
+.main_one {
+  background-image: url(../images_two_lesson/big_image.jpg);
+
+  background-repeat: no-repeat;
+}
+.main_one_box {
+  padding: 137px 0 137px 85px;
+}
+.main_one_box_title {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+.main_one_box_desc {
+  width: 445px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  opacity: 0.9;
+  margin-top: 24px;
+}
+/* two section */
+.main_two {
+  margin-top: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.coffee_maker {
+  width: 445px;
+  height: 520px;
+  border-radius: 8px;
+}
+.main_two_info {
+  margin-left: 127px;
+}
+.main_two_info_title {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333d4b;
+  margin-bottom: 32px;
+}
+.main_two_info_desc {
+  width: 540px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  opacity: 0.8;
+}
+/* section three */
+.main_three {
+  margin-top: 170px;
+  background-color: #2c343e;
+  border-radius: 10px;
+  display: flex;
+}
+.main_three_info {
+  padding: 100px 0 150px 85px;
+}
+.main_three_title {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+.main_three_desc {
+  margin-top: 32px;
+  width: 540px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  opacity: 0.8;
+}
+.main_three_img {
+  position: absolute;
+  top: 1340px;
+  left: 790px;
+}
+.main_three_img_item {
+  width: 445px;
+  height: 474px;
+  border-radius: 8px;
+}
+/* section four */
+.main_four {
+  margin-top: 170px;
+}
+.main_four_title {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+  margin-bottom: 72px;
+  margin-left: 70px;
+}
+.main_four_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 285px;
+
+  margin-right: 95px;
+}
+.card_title {
+  margin-top: 46px;
+  margin-bottom: 24px;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+}
+.card_desc {
+  /* width: 110px; */
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+/* footer part */
+.footer_part {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2c343e;
+  height: 120px;
+  margin-bottom: 100px;
+}
+.tool {
+  margin-right: 10px;
+}
+.footer_link {
+  text-decoration: none;
+  color: #83888f;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 0.9px;
+}
+.footer_link:hover {
+  color: white;
+}
